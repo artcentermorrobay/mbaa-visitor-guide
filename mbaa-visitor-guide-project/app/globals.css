@@ -1,0 +1,58 @@
+:root {
+  --berry: #B5367A;
+  --berry-dark: #9A2E68;
+  --berry-light: #F2D4E4;
+  --coral: #E8945A;
+  --coral-light: #FDF0E6;
+  --aqua: #7ECACA;
+  --aqua-light: #D4EDED;
+  --aqua-pale: #EDF7F7;
+  --lime: #C5D94A;
+  --lime-dark: #A8BC2E;
+  --lime-text: #3A3A2A;
+  --purple: #8B2E8B;
+  --purple-light: #F0E0F0;
+  --charcoal: #2A2A2A;
+  --gray-600: #5A5A5A;
+  --gray-400: #9A9A9A;
+  --gray-200: #D4D4D4;
+  --gray-100: #EEEEEE;
+  --white: #FFFFFF;
+  --green-bg: #D4EDDA;
+  --green-fg: #276749;
+  --red-bg: #F8E8E8;
+  --red-fg: #C44A4A;
+  --yellow-bg: #FFF3CD;
+  --yellow-fg: #856404;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--charcoal);
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--aqua);
+}
+
+::selection {
+  background-color: var(--aqua-pale);
+  color: var(--charcoal);
+}
